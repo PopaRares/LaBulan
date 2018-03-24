@@ -1,0 +1,24 @@
+ public static string RandomString()
+        {
+            string[] s = new string[11];
+
+            s[0] = "Se aude si in spate?";
+            s[1] = "Putem incepe?";
+            s[2] = "Scrieti ca nu iti mai zic";
+            s[3] = "Hai ca nu am toata ziua";
+            s[4] = "Doi zece 2 10";
+            s[5] = "AJUTOR! Sunt blocat in acest calculator!";
+            s[6] = "Bat pe mama 10 lei";
+            s[7] = "Adicaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+            s[8] = "tamtaram tananananananananaaaaaaaaaaaa nananaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ";
+            s[9] = "Terminam repede ca vreau sa vad etapa";
+            s[10] = "Invata sa scrii singur";
+
+            Random random = new Random();
+
+            int rand = random.Next(10);
+
+            string p = s[rand];
+
+            return p;
+        }
